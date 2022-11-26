@@ -1,9 +1,10 @@
 <template>
-  <div class="px-24 mt-44 text-start">
-    <h1 class="text-4xl text-start">ًWhat you can do in our space...</h1>
+  <div class="my-44">
+    <h1 class="border border-orange text-orange py-3 text-center uppercase font-bold text-xl">ً
+      What you can do in our space
+    </h1>
 
-    <div class="mt-16">
-
+    <div class="px-24 mt-24">
       <div class="flex justify-between items-center my-36">
         <div class="w-5/12">
           <h1 class="text-dark font-bold text-3xl">Meet and Work</h1>
@@ -18,7 +19,6 @@
           <div class="w-8/12 h-44 bg-dark rounded-full -mt-10 justify-self-end"></div>
         </div>
       </div>
-
       <div class="flex justify-between items-center my-36 flex-row-reverse">
         <div class="w-5/12">
           <h1 class="text-dark font-bold text-3xl">Build and Make</h1>
@@ -33,7 +33,6 @@
           <div class="w-8/12 h-44 bg-dark rounded-full -mt-10 justify-self-end"></div>
         </div>
       </div>
-
       <div class="flex justify-between items-center my-36">
         <div class="w-5/12">
           <h1 class="text-dark font-bold text-3xl">Scale up and Network</h1>
@@ -48,7 +47,6 @@
           <div class="w-8/12 h-44 bg-dark rounded-full -mt-10 justify-self-end"></div>
         </div>
       </div>
-
       <div class="flex justify-between items-center my-36 flex-row-reverse">
         <div class="w-5/12">
           <h1 class="text-dark font-bold text-3xl">Learn and Participate</h1>
@@ -63,11 +61,10 @@
           <div class="w-8/12 h-44 bg-dark rounded-full -mt-10 justify-self-end"></div>
         </div>
       </div>
-
-
     </div>
 
   </div>
+
 
 </template>
 

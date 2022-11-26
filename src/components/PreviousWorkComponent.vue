@@ -9,11 +9,11 @@
           doloremque ea est magnam maiores, mollitia nihil nobis nostrum porro possimus </p>
       </div>
       <div class="w-7/12 flex space-x-6">
-        <div class="h-32 w-6/12 rounded-full bg-white">
-          test
+        <div class="h-36 w-6/12 rounded-full bg-white">
+
         </div>
-        <div class="h-32 w-6/12 rounded-full bg-white">
-          test
+        <div class="h-36 w-6/12 rounded-full bg-white">
+
         </div>
       </div>
       <div class="w-1/12">

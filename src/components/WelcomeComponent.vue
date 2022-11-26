@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between items-center mt-52 mb-52">
+  <div class="flex justify-between items-center mt-52 mb-64">
     <div class="relative">
       <img class="h-72" src="/images/img_5.png" alt="">
       <img class="absolute top-0 right-0 mr-24 -mt-10 w-24" src="/images/img_9.png" alt="">
