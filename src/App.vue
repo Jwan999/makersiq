@@ -23,7 +23,7 @@
 }
 
 .bg-pattern{
-  background-image: url("/public/images/img_12.png");
+  background-image: url("/public/images/img_13.png");
 }
 
 

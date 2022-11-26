@@ -14,7 +14,7 @@
             Accusantium aliquid dolore error eveniet natus quidem vel! Ad aspernatur dicta, est modi neque quisquam
             sunt.</p>
         </div>
-        <div class="w-6/12 grid bg-pattern bg-contain bg-repeat-x">
+        <div class="w-6/12 grid bg-pattern bg-contain bg-repeat">
           <div class="w-8/12 h-44 bg-dark rounded-full"></div>
           <div class="w-8/12 h-44 bg-dark rounded-full -mt-10 justify-self-end"></div>
         </div>
