@@ -5,9 +5,9 @@
       <div>
         <div class="relative">
           <img src="/images/img_11.png" alt="">
-          <h1 class="text-orange-500 text-3xl uppercase bottom-0 -ml-10 mb-10 absolute">Supporting</h1>
+          <h1 class="text-orange text-3xl uppercase bottom-0 -ml-10 mb-10 absolute font-bold">Supporting</h1>
         </div>
-        <p class="text-gray-700 text-md text-start my-3">
+        <p class="text-dark text-md text-start my-3">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga molestiae nobis numquam quod! Ad alias cum
           deserunt exercitationem magni numquam officia pariatur
         </p>
@@ -15,9 +15,9 @@
       <div>
         <div class="relative">
           <img src="/images/img_11.png" alt="">
-          <h1 class="text-orange-500 text-3xl uppercase bottom-0 -ml-10 mb-10 absolute">Training</h1>
+          <h1 class="text-orange text-3xl uppercase bottom-0 -ml-10 mb-10 absolute font-bold">Training</h1>
         </div>
-        <p class="text-gray-700 text-md text-start my-3">
+        <p class="text-dark text-md text-start my-3">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga molestiae nobis numquam quod! Ad alias cum
           deserunt exercitationem magni numquam officia pariatur
         </p>
@@ -25,9 +25,9 @@
       <div>
         <div class="relative">
           <img src="/images/img_11.png" alt="">
-          <h1 class="text-orange-500 text-3xl uppercase bottom-0 -ml-10 mb-10 absolute">Making</h1>
+          <h1 class="text-orange text-3xl uppercase bottom-0 -ml-10 mb-10 absolute font-bold">Making</h1>
         </div>
-        <p class="text-gray-700 text-md text-start my-3">
+        <p class="text-dark text-md text-start my-3">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga molestiae nobis numquam quod! Ad alias cum
           deserunt exercitationem magni numquam officia pariatur
         </p>

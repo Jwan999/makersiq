@@ -5,17 +5,17 @@
       <h1 class="font-bold text-xl">MAKERS</h1>
     </div>
 
-    <div class="w-8/12 flex justify-center space-x-٤">
-      <router-link to="/about" class="cursor-pointer text-gray-700 text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange-600 hover:border-orange-500 rounded-full px-5 py-2">Meet The Makers</router-link>
-      <router-link to="/products" class="cursor-pointer text-gray-700 text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange-600 hover:border-orange-500 rounded-full px-5 py-2">Products Made</router-link>
-      <router-link to="/projects" class="cursor-pointer text-gray-700 text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange-600 hover:border-orange-500 rounded-full px-5 py-2">Projects Accomplished
+    <div class="w-8/12 flex justify-center space-x-3">
+      <router-link to="/about" class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full px-5 py-2">Meet The Makers</router-link>
+      <router-link to="/products" class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full px-5 py-2">Products Made</router-link>
+      <router-link to="/projects" class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full px-5 py-2">Projects Accomplished
       </router-link>
-      <router-link to="/startups" class="cursor-pointer text-gray-700 text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange-600 hover:border-orange-500 rounded-full px-5 py-2">Startups Community
+      <router-link to="/startups" class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full px-5 py-2">Startups Community
       </router-link>
     </div>
 
     <div class="w-2/12 flex justify-end">
-      <h1 class="text-orange-500 font-bold">Courses</h1>
+      <button class="text-orange text-sm font-bold rounded-tr-full rounded-bl-full px-12 py-2 border border-orange hover:bg-orange hover:text-white transition-colors ease-in delay-100">Courses</button>
     </div>
   </div>
 </template>

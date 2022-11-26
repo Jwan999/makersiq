@@ -9,15 +9,15 @@
           doloremque ea est magnam maiores, mollitia nihil nobis nostrum porro possimus </p>
       </div>
       <div class="w-7/12 flex space-x-6">
-        <div class="h-32 w-6/12 rounded-full bg-gray-100">
+        <div class="h-32 w-6/12 rounded-full bg-white">
           test
         </div>
-        <div class="h-32 w-6/12 rounded-full bg-gray-100">
+        <div class="h-32 w-6/12 rounded-full bg-white">
           test
         </div>
       </div>
       <div class="w-1/12">
-        <a class="text-orange-500 font-bold">More Projects</a>
+        <a class="text-orange font-bold">More Projects</a>
       </div>
     </div>
   </div>
