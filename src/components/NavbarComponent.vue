@@ -40,7 +40,7 @@ export default {
   name: "NavbarComponent",
   data() {
     return {
-      isAtHome: false
+      isAtHome: true,
     }
   },
   watch: {
