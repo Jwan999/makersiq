@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="flex md:hidden justify-between items-center mt-24 mb-64 px-4">
-      <img class="object-cover" src="/images/img_5.png" alt="">
+      <img class="object-cover" src="/images/mobileWelcoming.png" alt="">
     </div>
 
 
