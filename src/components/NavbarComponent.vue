@@ -1,29 +1,53 @@
 <template>
-  <div class="flex justify-center items-center lg:px-28 lg:py-4 px-4 py-3">
-    <div class="w-2/12 flex justify-start space-x-3 items-center">
+  <div
+      class="flex flex-col lg:flex-row lg:justify-center justify-start items-center lg:space-y-0 space-y-6 lg:px-20 px-0 lg:py-4 py-3">
+    <div class="lg:w-2/12 w-full flex justify-start space-x-3 items-center px-4 lg:px-0">
       <img class="w-10" src="/images/img_2.png" alt="">
       <h1 class="font-bold text-xl">MAKERS</h1>
     </div>
 
-    <div class="w-8/12 flex justify-center space-x-3">
-      <router-link to="/about" class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full px-5 py-2">Meet The Makers</router-link>
-      <router-link to="/products" class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full px-5 py-2">Products Made</router-link>
-      <router-link to="/projects" class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full px-5 py-2">Projects Accomplished
-      </router-link>
-      <router-link to="/startups" class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full px-5 py-2">Startups Community
-      </router-link>
+    <div class="lg:w-8/12 w-full flex lg:flex-row flex-col justify-center lg:space-x-3 space-x-0">
+      <a v-if="!isAtHome" @click="isAtHome = true" to="/startups"
+         class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full lg:px-5 px-4 py-2">Main
+        Page</a>
+      <a @click="isAtHome = false" to="/about"
+         class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full lg:px-5 px-4 py-2">Meet
+        The Makers</a>
+      <a @click="isAtHome = false" to="/products"
+         class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full lg:px-5 px-4 py-2">Products
+        Made</a>
+      <a @click="isAtHome = false" to="/projects"
+         class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full lg:px-5 px-4 py-2">Projects
+        Accomplished
+      </a>
+      <a @click="isAtHome = false" to="/startups"
+         class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full lg:px-5 px-4 py-2">Startups
+        Community
+      </a>
     </div>
 
-    <div class="w-2/12 flex justify-end">
-      <button class="text-orange text-sm font-bold rounded-tr-full rounded-bl-full px-12 py-2 border border-orange hover:bg-orange hover:text-white transition-colors ease-in delay-100">Courses</button>
+    <div class="lg:w-2/12 w-full flex lg:justify-end lg:px-0 px-4">
+      <button
+          class="text-orange text-sm font-bold rounded-tr-full rounded-bl-full px-12 py-2 border border-orange hover:bg-orange hover:text-white transition-colors ease-in delay-100">
+        Courses
+      </button>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  // name: "router",
   name: "NavbarComponent",
+  data() {
+    return {
+      isAtHome: false
+    }
+  },
+  watch: {
+    isAtHome(newValue) {
+      this.$emit('value-changed', newValue);
+    }
+  }
 }
 </script>
 
