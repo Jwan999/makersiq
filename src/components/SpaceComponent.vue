@@ -2,8 +2,8 @@
   <div class="my-44">
     <div class="relative">
       <img class="w-8 absolute bottom-0 right-0 -mb-5 mr-2" src="/images/img_15.png" alt="">
-      <h1 class="border border-orange text-orange py-3 text-center uppercase font-bold text-xl">ً
-        What you can do in our space
+      <h1 class="border border-orange text-orange py-3 text-center uppercase font-bold text-xl">ًWhat you can do in our
+        space
       </h1>
       <img class="w-8 absolute top-0 left-0 -mt-5 ml-2" src="/images/img_14.png" alt="">
     </div>
