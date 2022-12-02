@@ -8,15 +8,15 @@
           delectus deleniti
           doloremque ea est magnam maiores, mollitia nihil nobis nostrum porro possimus </p>
       </div>
-      <div class="lg:w-7/12 w-full flex lg:space-x-6 space-x-0">
-        <div class="h-36 w-6/12 rounded-full bg-white">
+      <div class="lg:w-7/12 w-full flex flex-col lg:flex-row lg:space-y-0 space-y-6 lg:space-x-6 space-x-0">
+        <div class="h-36 lg:w-6/12 w-full rounded-full bg-white">
 
         </div>
-        <div class="h-36 w-6/12 rounded-full bg-white">
+        <div class="h-36 lg:w-6/12 w-full rounded-full bg-white">
 
         </div>
       </div>
-      <div class="w-1/12">
+      <div class="lg:w-1/12 w-full">
         <a class="text-orange font-bold">More Projects</a>
       </div>
     </div>
