@@ -25,7 +25,7 @@
                class="w-8/12 h-44 rounded-full -mt-10 justify-self-end object-cover grayscale">
         </div>
       </div>
-      <div class="flex lg:flex-row flex-col justify-between items-center my-36 lg:space-y-0 space-y-14 flex-row-reverse">
+      <div class="flex lg:flex-row-reverse flex-col justify-between items-center my-36 lg:space-y-0 space-y-14 ">
         <div class="lg:w-5/12 w-full">
           <h1 class="text-dark font-bold text-3xl">Build and Make</h1>
           <h1 class="text-orange font-semibold">at the maker space</h1>
@@ -55,7 +55,7 @@
                class="w-8/12 h-44 rounded-full -mt-10 justify-self-end object-cover grayscale">
         </div>
       </div>
-      <div class="flex lg:flex-row flex-col justify-between items-center my-36 lg:space-y-0 space-y-14 flex-row-reverse">
+      <div class="flex lg:flex-row-reverse flex-col justify-between items-center my-36 lg:space-y-0 space-y-14 ">
         <div class="lg:w-5/12 w-full">
           <h1 class="text-dark font-bold text-3xl">Learn and Participate</h1>
           <h1 class="text-orange font-semibold">at the training halls</h1>
