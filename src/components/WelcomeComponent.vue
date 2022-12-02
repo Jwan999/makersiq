@@ -13,7 +13,7 @@
         <img class="absolute bottom-0 right-0 mr-16 -mb-10 w-24" src="/images/img_10.png" alt="">
       </div>
     </div>
-    <div class="flex md:hidden justify-between items-center mt-24 mb-64 px-4">
+    <div class="flex md:hidden justify-between items-center mt-24 mb-64 mx-10">
       <img class="object-cover" src="/images/mobileWelcoming.png" alt="">
     </div>
 
