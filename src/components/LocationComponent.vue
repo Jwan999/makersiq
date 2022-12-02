@@ -8,7 +8,7 @@
     </div>
 
     <div class="px-24 mt-24">
-      test
+      Location
     </div>
 
   </div>
