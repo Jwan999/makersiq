@@ -1,7 +1,8 @@
 <template>
-  <div class="my-44 py-28 px-4 lg:relative text-white lg:bg-transparent bg-dark">
-    <img class="lg:flex hidden" src="/images/Group%202.svg" alt="">
-    <div class="lg:pl-28 pl-0 lg:pr-10 pr-0 lg:absolute lg:top-0 lg:bottom-0 lg:m-auto lg:m-0 flex lg:flex-nowrap flex-wrap justify-between items-center lg:space-x-4 space-x-0 space-y-10">
+  <div class="my-44 py-28 px-4 lg:px-0 lg:relative text-white lg:bg-transparent bg-dark w-full">
+    <img class="lg:flex hidden w-full" src="/images/projects-bg.svg" alt="">
+    <div
+        class="lg:pl-28 pl-0 lg:pr-10 pr-0 lg:absolute lg:top-0 lg:bottom-0 lg:m-auto lg:m-0 flex lg:flex-nowrap flex-wrap justify-between items-center lg:space-x-4 space-x-0 space-y-10">
       <div class="text-start lg:w-3/12 w-full">
         <h1 class="text-3xl font-bold">Projects Accomplished</h1>
         <p class="text-sm mt-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid aspernatur
@@ -16,8 +17,11 @@
 
         </div>
       </div>
-      <div class="lg:w-1/12 w-full">
-        <a class="text-orange font-bold">More Projects</a>
+      <div class="lg:w-1/12 w-full flex lg:justify-start justify-center">
+        <a href="/projects"
+           class="text-orange text-sm font-bold rounded-tr-full rounded-bl-full px-12 py-2 border border-orange hover:bg-orange hover:text-white transition-colors ease-in delay-100">
+          More
+        </a>
       </div>
     </div>
   </div>

@@ -20,9 +20,9 @@
             sunt.</p>
         </div>
         <div class="lg:w-6/12 w-full grid bg-pattern bg-contain bg-repeat py-10">
-          <img alt="" src="/images/IMG_2252.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover grayscale">
-          <img alt="" src="/images/IMG_2252.JPG"
-               class="w-8/12 lg:h-44 h-32 rounded-full -mt-10 justify-self-end object-cover grayscale">
+          <img alt="" src="/images/work.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover object-center grayscale z-10">
+          <img alt="" src="/images/meet.JPG"
+               class="w-8/12 lg:h-44 h-32 rounded-full -mt-10 justify-self-end object-cover object-center grayscale">
         </div>
       </div>
       <div class="flex lg:flex-row-reverse flex-col justify-between items-center my-36 lg:space-y-0 space-y-14 ">
@@ -35,8 +35,8 @@
             sunt.</p>
         </div>
         <div class="lg:w-6/12 w-full grid bg-pattern bg-contain bg-repeat py-10">
-          <img alt="" src="/images/IMG_2252.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover grayscale">
-          <img alt="" src="/images/IMG_2252.JPG"
+          <img alt="" src="/images/build.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover grayscale">
+          <img alt="" src="/images/make.JPG"
                class="w-8/12 lg:h-44 h-32 rounded-full -mt-10 justify-self-end object-cover grayscale">
         </div>
       </div>
@@ -50,8 +50,8 @@
             sunt.</p>
         </div>
         <div class="lg:w-6/12 w-full grid bg-pattern bg-contain bg-repeat py-10">
-          <img alt="" src="/images/IMG_2252.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover grayscale">
-          <img alt="" src="/images/IMG_2252.JPG"
+          <img alt="" src="/images/scale.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover grayscale">
+          <img alt="" src="/images/network.JPG"
                class="w-8/12 lg:h-44 h-32 rounded-full -mt-10 justify-self-end object-cover grayscale">
         </div>
       </div>
@@ -65,8 +65,8 @@
             sunt.</p>
         </div>
         <div class="lg:w-6/12 w-full grid bg-pattern bg-contain bg-repeat py-10">
-          <img alt="" src="/images/IMG_2252.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover grayscale">
-          <img alt="" src="/images/IMG_2252.JPG"
+          <img alt="" src="/images/learn.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover grayscale">
+          <img alt="" src="/images/participate.JPG"
                class="w-8/12 lg:h-44 h-32 rounded-full -mt-10 justify-self-end object-cover grayscale">
         </div>
       </div>

@@ -12,7 +12,7 @@
 
     <div v-if="!isAtHome" class="h-100 bg-repeat-x bg-pattern bg-contain my-32">
       <div class="text-center pt-36 px-10">
-        <h1 class="bg-dark text-white inline-block skew-x-6 px-24 py-6 md:text-4xl text-3xl font-bold">Coming
+        <h1 class="bg-dark text-orange inline-block skew-x-6 px-24 py-6 md:text-4xl text-3xl font-bold">Coming
           Soon...</h1>
       </div>
     </div>
