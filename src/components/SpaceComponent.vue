@@ -20,9 +20,9 @@
             sunt.</p>
         </div>
         <div class="lg:w-6/12 w-full grid bg-pattern bg-contain bg-repeat py-10">
-          <img alt="" src="/images/work.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover object-center grayscale z-10">
+          <img alt="" src="/images/work.JPG" class="lg:w-8/12 w-9/12 lg:h-44 h-28 rounded-full object-cover object-center grayscale z-10">
           <img alt="" src="/images/meet.JPG"
-               class="w-8/12 lg:h-44 h-32 rounded-full -mt-10 justify-self-end object-cover object-center grayscale">
+               class="lg:w-8/12 w-9/12 lg:h-44 h-28 rounded-full lg:-mt-10 -mt-4 justify-self-end object-cover object-center grayscale">
         </div>
       </div>
       <div class="flex lg:flex-row-reverse flex-col justify-between items-center my-36 lg:space-y-0 space-y-14 ">
@@ -35,9 +35,9 @@
             sunt.</p>
         </div>
         <div class="lg:w-6/12 w-full grid bg-pattern bg-contain bg-repeat py-10">
-          <img alt="" src="/images/build.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover grayscale">
+          <img alt="" src="/images/build.JPG" class="lg:w-8/12 w-9/12 lg:h-44 h-28 rounded-full object-cover object-center grayscale">
           <img alt="" src="/images/make.JPG"
-               class="w-8/12 lg:h-44 h-32 rounded-full -mt-10 justify-self-end object-cover grayscale">
+               class="lg:w-8/12 w-9/12 lg:h-44 h-28 rounded-full lg:-mt-10 -mt-4 justify-self-end object-cover object-center grayscale">
         </div>
       </div>
       <div class="flex lg:flex-row flex-col justify-between items-center my-36 lg:space-y-0 space-y-14">
@@ -50,9 +50,9 @@
             sunt.</p>
         </div>
         <div class="lg:w-6/12 w-full grid bg-pattern bg-contain bg-repeat py-10">
-          <img alt="" src="/images/scale.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover grayscale">
+          <img alt="" src="/images/scale.JPG" class="lg:w-8/12 w-9/12 lg:h-44 h-28 rounded-full object-cover object-center grayscale z-10">
           <img alt="" src="/images/network.JPG"
-               class="w-8/12 lg:h-44 h-32 rounded-full -mt-10 justify-self-end object-cover grayscale">
+               class="lg:w-8/12 w-9/12 lg:h-44 h-28 rounded-full lg:-mt-10 -mt-4 justify-self-end object-cover object-center grayscale">
         </div>
       </div>
       <div class="flex lg:flex-row-reverse flex-col justify-between items-center my-36 lg:space-y-0 space-y-14 ">
@@ -65,9 +65,9 @@
             sunt.</p>
         </div>
         <div class="lg:w-6/12 w-full grid bg-pattern bg-contain bg-repeat py-10">
-          <img alt="" src="/images/learn.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover grayscale">
+          <img alt="" src="/images/learn.JPG" class="lg:w-8/12 w-9/12 lg:h-44 h-28 rounded-full object-cover object-center grayscale">
           <img alt="" src="/images/participate.JPG"
-               class="w-8/12 lg:h-44 h-32 rounded-full -mt-10 justify-self-end object-cover grayscale">
+               class="lg:w-8/12 w-9/12 lg:h-44 h-28 rounded-full lg:-mt-10 -mt-4 justify-self-end object-cover object-center grayscale">
         </div>
       </div>
     </div>
