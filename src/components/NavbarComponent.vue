@@ -2,7 +2,7 @@
   <div
       class="flex flex-col lg:flex-row lg:justify-center justify-start items-center lg:space-y-0 space-y-6 lg:px-20 px-0 lg:py-4 py-3">
     <div class="lg:w-2/12 w-full flex justify-start space-x-3 items-center px-4 lg:px-0">
-      <img class="w-10" src="/images/img_2.png" alt="">
+      <img class="w-10" src="/images/makersLogo.png" alt="">
       <h1 class="font-bold text-xl">MAKERS</h1>
     </div>
 

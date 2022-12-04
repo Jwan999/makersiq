@@ -1,12 +1,11 @@
 <template>
   <div class="my-44">
     <div class="relative">
-      <img class="w-8 absolute bottom-0 right-0 -mb-5 mr-2" src="/images/img_15.png" alt="">
+      <img class="w-8 absolute bottom-0 right-0 -mb-5 mr-2" src="/images/filledComma90.png" alt="">
       <h1 class="border border-orange text-orange py-3 text-center uppercase font-bold text-xl">Our location
       </h1>
-      <img class="w-8 absolute top-0 left-0 -mt-5 ml-2" src="/images/img_14.png" alt="">
+      <img class="w-8 absolute top-0 left-0 -mt-5 ml-2" src="/images/filledComma.png" alt="">
     </div>
-    <!--px-24 mt-24-->
     <div class="my-44 flex xl:flex-row flex-col-reverse relative text-white">
       <img class="xl:w-8/12 w-full xl:-mt-0 -mt-10 z-10" src="/images/location.svg" alt="">
       <img class="w-full hidden xl:flex" src="/images/locationDark.svg" alt="">
