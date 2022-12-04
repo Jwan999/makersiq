@@ -2,7 +2,7 @@
   <div class="my-44">
     <div class="relative">
       <img class="w-8 absolute bottom-0 right-0 -mb-5 mr-2" src="/images/img_15.png" alt="">
-      <h1 class="border border-orange text-orange py-3 text-center uppercase font-bold text-xl">ًWhat you can do in our
+      <h1 class="border border-orange text-orange py-3 text-center uppercase font-bold text-xl">What you can do in our
         space
       </h1>
       <img class="w-8 absolute top-0 left-0 -mt-5 ml-2" src="/images/img_14.png" alt="">
@@ -20,7 +20,7 @@
             sunt.</p>
         </div>
         <div class="lg:w-6/12 w-full grid bg-pattern bg-contain bg-repeat py-10">
-          <img alt="" src="/images/IMG_2252.JPG" class="w-8/12 lg:h-44 h-32 rounded-full object-cover grayscale">
+          <img alt="" src="/images/IMG_2252.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover grayscale">
           <img alt="" src="/images/IMG_2252.JPG"
                class="w-8/12 lg:h-44 h-32 rounded-full -mt-10 justify-self-end object-cover grayscale">
         </div>
@@ -35,7 +35,7 @@
             sunt.</p>
         </div>
         <div class="lg:w-6/12 w-full grid bg-pattern bg-contain bg-repeat py-10">
-          <img alt="" src="/images/IMG_2252.JPG" class="w-8/12 lg:h-44 h-32 rounded-full object-cover grayscale">
+          <img alt="" src="/images/IMG_2252.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover grayscale">
           <img alt="" src="/images/IMG_2252.JPG"
                class="w-8/12 lg:h-44 h-32 rounded-full -mt-10 justify-self-end object-cover grayscale">
         </div>
@@ -50,7 +50,7 @@
             sunt.</p>
         </div>
         <div class="lg:w-6/12 w-full grid bg-pattern bg-contain bg-repeat py-10">
-          <img alt="" src="/images/IMG_2252.JPG" class="w-8/12 lg:h-44 h-32 rounded-full object-cover grayscale">
+          <img alt="" src="/images/IMG_2252.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover grayscale">
           <img alt="" src="/images/IMG_2252.JPG"
                class="w-8/12 lg:h-44 h-32 rounded-full -mt-10 justify-self-end object-cover grayscale">
         </div>
@@ -65,7 +65,7 @@
             sunt.</p>
         </div>
         <div class="lg:w-6/12 w-full grid bg-pattern bg-contain bg-repeat py-10">
-          <img alt="" src="/images/IMG_2252.JPG" class="w-8/12 lg:h-44 h-32 rounded-full object-cover grayscale">
+          <img alt="" src="/images/IMG_2252.JPG" class="w-8/12 lg:h-44 h-28 rounded-full object-cover grayscale">
           <img alt="" src="/images/IMG_2252.JPG"
                class="w-8/12 lg:h-44 h-32 rounded-full -mt-10 justify-self-end object-cover grayscale">
         </div>

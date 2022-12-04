@@ -14,7 +14,7 @@
             <div class="flex justify-center">
               <img class="rectangle-shape grayscale object-cover" src="/images/IMG_2250.JPG" alt="">
             </div>
-            <h1 class="text-orange text-4xl uppercase bottom-0 xl:ml-10 -ml-0 ml-4 mb-10 absolute font-bold">
+            <h1 class="text-orange text-4xl uppercase bottom-0 xl:-ml-10 -ml-0 ml-4 mb-10 absolute font-bold">
               Supporting</h1>
           </div>
           <p class="text-dark text-md text-start my-3 text-justify">
