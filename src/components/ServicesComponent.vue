@@ -8,7 +8,7 @@
 
     <div class="xl:px-24 px-4 mt-24">
       <div
-          class="flex xl:flex-row flex-col xl:justify-between justify-center xl:space-x-24 space-x-0 xl:space-y-0 space-y-12">
+          class="grid xl:grid-cols-3 grid-cols-1 xl:gap-24 gap-14">
 
         <div class="xl:px-0 lg:px-64 md:px-40 sm:px-32 px-0">
           <div class="relative">
@@ -18,9 +18,15 @@
             <h1 class="bg-dark text-center skew-x-6 px-10 py-4 text-orange bg-black text-2xl uppercase bottom-0 xl:-ml-10 -ml-0 ml-4 mb-10 absolute font-bold">
               Supporting</h1>
           </div>
-          <p class="text-dark text-md text-start my-3">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga molestiae nobis numquam quod! Ad alias cum
-            deserunt exercitationem magni numquam officia pariatur
+          <p class="text-dark text-md text-start my-3">Makers originally started as a start-up, and our journey is
+            something we want others to benefit from, therefore supporting start-ups scaling up their business with the
+            following:
+
+            Social media presence,
+            Informative website,
+            Desk space,
+            Product making,
+            Consultancy and many more.
           </p>
         </div>
 
@@ -32,10 +38,9 @@
             <h1 class="bg-dark skew-x-6 px-10 py-4 text-orange bg-black text-2xl uppercase bottom-0 xl:-ml-10 -ml-0 ml-4 mb-10 absolute font-bold">
               Training</h1>
           </div>
-          <p class="text-dark text-md text-start my-3">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga molestiae nobis numquam quod! Ad alias cum
-            deserunt exercitationem magni numquam officia pariatur
-          </p>
+          <p class="text-dark text-md text-start my-3">We provide a wide variety of technical courses and internships
+            that made our vision of expanding the community of Makers with the skills of 3D modeling, product design and
+            manufacturing, cinema 4D, electronics, robotics, AI, and programming.</p>
         </div>
 
         <div class="xl:px-0 lg:px-64 md:px-40 sm:px-32 px-0">
@@ -46,9 +51,10 @@
             <h1 class="bg-dark skew-x-6 px-10 py-4 text-orange bg-black text-2xl uppercase bottom-0 xl:-ml-10 -ml-0 ml-4 mb-10 absolute font-bold">
               Making</h1>
           </div>
-          <p class="text-dark text-md text-start my-3">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga molestiae nobis numquam quod! Ad alias cum
-            deserunt exercitationem magni numquam officia pariatur
+          <p class="text-dark text-md text-start my-3">We've equipped the maker space to design and make prototypes and
+            products.
+            We've made 90+ final usable products with the experience and dedication of our team, interns, start-ups, and
+            students.
           </p>
         </div>
 
