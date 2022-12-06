@@ -50,7 +50,7 @@
             sunt.</p>
         </div>
         <div class="lg:w-6/12 w-full grid bg-pattern bg-contain bg-repeat py-10">
-          <img alt="" src="/images/scale.JPG" class="lg:w-8/12 w-9/12 lg:h-44 h-28 rounded-full object-cover object-center grayscale z-10">
+          <img alt="" src="/images/supporting.JPG" class="lg:w-8/12 w-9/12 lg:h-44 h-28 rounded-full object-cover object-center grayscale z-10">
           <img alt="" src="/images/network.JPG"
                class="lg:w-8/12 w-9/12 lg:h-44 h-28 rounded-full lg:-mt-10 -mt-4 justify-self-end object-cover object-center grayscale">
         </div>
