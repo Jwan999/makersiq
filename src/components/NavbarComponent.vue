@@ -27,10 +27,10 @@
     </div>
 
     <div class="lg:w-2/12 w-full flex lg:justify-end lg:px-0 px-4">
-      <button
-          class="text-orange text-sm font-bold rounded-tr-full rounded-bl-full px-12 py-2 border border-orange hover:bg-orange hover:text-white transition-colors ease-in delay-100">
+      <a href="https://linktree.makersiq.org/"
+         class="text-orange text-sm font-bold rounded-tr-full rounded-bl-full px-12 py-2 border border-orange hover:bg-orange hover:text-white transition-colors ease-in delay-100">
         Courses
-      </button>
+      </a>
     </div>
   </div>
 </template>
