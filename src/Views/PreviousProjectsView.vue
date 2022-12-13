@@ -15,78 +15,13 @@
       </div>
 
       <div class="space-y-16">
-        <!--2022-->
-        <div class="flex items-start xl:flex-row flex-col xl:space-x-64 space-x-0">
+        <div v-for="year in years" :key="`year-${year}`" class="flex items-start xl:flex-row flex-col xl:space-x-64 space-x-0">
           <div class="xl:pb-0 pb-10">
-            <h1 class="text-orange font-bold text-sm text-4xl">{{ MMXXIIProjects[1] }}</h1>
+            <h1 class="text-orange font-bold text-sm text-4xl">{{ year }}</h1>
           </div>
           <div class="w-full grid-cols-1 grid gap-6 xl:mt-0 mt-6">
             <!--2022-->
-            <div :key="index" v-for="(project ,index) in MMXXIIProjects[0]"
-                 class="w-8/12 flex xl:flex-row flex-col xl:col-span-2 col-span-1 w-auto xl:rounded-full bg-dark xl:px-10 px-4 xl:py-5 py-6 items-center space-x-2">
-              <img class="w-20 grayscale xl:my-0 my-2 xl:mr-4"
-                   :src="'https://dashboard.makersiq.org/storage/'+ project.icon"
-                   alt="">
-              <p class="text-white text-sm">{{ project.overview }}</p>
-            </div>
-          </div>
-        </div>
-        <!--2021-->
-        <div class="flex items-start xl:flex-row flex-col xl:space-x-64 space-x-0 ">
-          <div class="xl:pb-0 pb-10">
-            <h1 class="text-orange font-bold text-sm text-4xl">{{ MMXXIProjects[1] }}</h1>
-          </div>
-          <div class="w-full grid-cols-1 grid gap-6 xl:mt-0 mt-6">
-            <!--2021-->
-            <div :key="index" v-for="(project ,index) in MMXXIProjects[0]"
-                 class="w-8/12 flex xl:flex-row flex-col xl:col-span-2 col-span-1 w-auto xl:rounded-full bg-dark xl:px-10 px-4 xl:py-5 py-6 items-center space-x-2">
-              <img class="w-20 grayscale xl:my-0 my-2 xl:mr-4"
-                   :src="'https://dashboard.makersiq.org/storage/'+ project.icon"
-                   alt="">
-              <p class="text-white text-sm">{{ project.overview }}</p>
-            </div>
-          </div>
-        </div>
-        <!--2020-->
-        <div class="flex items-start xl:flex-row flex-col xl:space-x-64 space-x-0 ">
-          <div class="xl:pb-0 pb-10">
-            <h1 class="text-orange font-bold text-sm text-4xl">{{ MMXXProjects[1] }}</h1>
-          </div>
-          <div class="w-full grid-cols-1 grid gap-6 xl:mt-0 mt-6">
-            <!--2020-->
-            <div :key="index" v-for="(project ,index) in MMXXProjects[0]"
-                 class="w-8/12 flex xl:flex-row flex-col xl:col-span-2 col-span-1 w-auto xl:rounded-full bg-dark xl:px-10 px-4 xl:py-5 py-6 items-center space-x-2">
-              <img class="w-20 grayscale xl:my-0 my-2 xl:mr-4"
-                   :src="'https://dashboard.makersiq.org/storage/'+ project.icon"
-                   alt="">
-              <p class="text-white text-sm">{{ project.overview }}</p>
-            </div>
-          </div>
-        </div>
-        <!--2019-->
-        <div class="flex items-start xl:flex-row flex-col xl:space-x-64 space-x-0 ">
-          <div class="xl:pb-0 pb-10">
-            <h1 class="text-orange font-bold text-sm text-4xl">{{ MMXIXProjects[1] }}</h1>
-          </div>
-          <div class="w-full grid-cols-1 grid gap-6 xl:mt-0 mt-6">
-            <!--2019-->
-            <div :key="index" v-for="(project ,index) in MMXIXProjects[0]"
-                 class="w-8/12 flex xl:flex-row flex-col xl:col-span-2 col-span-1 w-auto xl:rounded-full bg-dark xl:px-10 px-4 xl:py-5 py-6 items-center space-x-2">
-              <img class="w-20 grayscale xl:my-0 my-2 xl:mr-4"
-                   :src="'https://dashboard.makersiq.org/storage/'+ project.icon"
-                   alt="">
-              <p class="text-white text-sm">{{ project.overview }}</p>
-            </div>
-          </div>
-        </div>
-        <!--2018-->
-        <div class="flex items-start xl:flex-row flex-col xl:space-x-64 space-x-0 ">
-          <div class="xl:pb-0 pb-10">
-            <h1 class="text-orange font-bold text-sm text-4xl">{{ MMXVIIIProjects[1] }}</h1>
-          </div>
-          <div class="w-full grid-cols-1 grid gap-6 xl:mt-0 mt-6">
-            <!--2018-->
-            <div :key="index" v-for="(project ,index) in MMXVIIIProjects[0]"
+            <div :key="index" v-for="(project ,index) in getProjectsByYear(year)"
                  class="w-8/12 flex xl:flex-row flex-col xl:col-span-2 col-span-1 w-auto xl:rounded-full bg-dark xl:px-10 px-4 xl:py-5 py-6 items-center space-x-2">
               <img class="w-20 grayscale xl:my-0 my-2 xl:mr-4"
                    :src="'https://dashboard.makersiq.org/storage/'+ project.icon"
@@ -107,9 +42,13 @@ export default {
   data() {
     return {
       projects: [],
+      years: [2022,2021,2020,2019,2018]
     }
   },
   methods: {
+    getProjectsByYear(year) {
+      return this.projects.filter(project => project.starting_date.includes(year) ?? false);
+    },
     getProjects() {
       this.axios.get('https://dashboard.makersiq.org/api/projects').then(response => {
         this.projects = response.data
