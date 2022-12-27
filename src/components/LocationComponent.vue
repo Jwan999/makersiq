@@ -7,7 +7,9 @@
       <img class="w-8 absolute top-0 left-0 -mt-5 ml-2" src="/images/filledComma.png" alt="">
     </div>
     <div class="my-44 flex xl:flex-row flex-col-reverse relative text-white">
-      <img class="xl:w-8/12 w-full xl:-mt-0 -mt-10 z-10" src="/images/location.svg" alt="">
+      <a class="w-full xl:w-8/12 xl:-mt-0 -mt-10 z-10" href="https://goo.gl/maps/PW7hJ5znqVYK68WL6">
+        <img class="w-full" src="/images/location.svg" alt="">
+      </a>
       <img class="w-full hidden xl:flex" src="/images/locationDark.svg" alt="">
       <div
           class="xl:absolute xl:bg-transparent bg-dark top-0 xl:w-5/12 w-full xl:right-0 xl:mr-24 mr-0 xl:pt-0 xl:pb-0 pt-14 pb-24 xl:mt-10 mt-6 xl:text-center text-start xl:px-0 px-6">

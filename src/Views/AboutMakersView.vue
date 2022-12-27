@@ -8,23 +8,26 @@
     </div>
 
     <div class="xl:px-24 px-4 mt-32 mb-44">
-      <div>
-        <h1>Mission & Vision</h1>
-      </div>
-      <div>
-        <h1>Team</h1>
-      </div>
-      <div>
-        <h1>Partners</h1>
-      </div>
+
+      <MissionAndVisionComponent></MissionAndVisionComponent>
+      <PartnersComponent></PartnersComponent>
+      <MakersTeamComponent></MakersTeamComponent>
+
     </div>
 
   </div>
 </template>
 
 <script>
+import MakersTeamComponent from "@/components/MakersTeamComponent";
+import MissionAndVisionComponent from "@/components/MissionAndVisionComponent";
+import PartnersComponent from "@/components/PartnersComponent";
+
 export default {
-  name: "AboutMakersView"
+  components: {
+    MakersTeamComponent, MissionAndVisionComponent, PartnersComponent
+  },
+  name: "AboutMakersView",
 }
 </script>
 

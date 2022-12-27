@@ -36,7 +36,14 @@ export default {
   /*font-family: Avenir, Helvetica, Arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
+
+html, body {
+  position: relative;
+  overflow-x: hidden;
+}
+
 
 .bg-pattern {
   background-image: url("/public/images/bg-pattern.svg");

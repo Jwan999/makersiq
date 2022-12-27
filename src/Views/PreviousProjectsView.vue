@@ -6,7 +6,6 @@
       </div>
       <div class="bg-orange w-full py-7 rounded-bl-full rounded-tl-full -mt-8 ml-28"></div>
     </div>
-
     <div class="xl:px-24 px-4 mt-32 mb-44">
       <div class="w-8/12 text-sm">
         <!--        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam at debitis error eum, id inventore-->
@@ -15,7 +14,8 @@
       </div>
 
       <div class="space-y-16">
-        <div v-for="year in years" :key="`year-${year}`" class="flex items-start xl:flex-row flex-col xl:space-x-64 space-x-0">
+        <div v-for="year in years" :key="`year-${year}`"
+             class="flex items-start xl:flex-row flex-col xl:space-x-64 space-x-0">
           <div class="xl:pb-0 pb-10">
             <h1 class="text-orange font-bold text-sm text-4xl">{{ year }}</h1>
           </div>
@@ -42,7 +42,7 @@ export default {
   data() {
     return {
       projects: [],
-      years: [2022,2021,2020,2019,2018]
+      years: [2022, 2021, 2020, 2019, 2018]
     }
   },
   methods: {

@@ -6,10 +6,17 @@
       </div>
       <div class="bg-orange w-full py-7 rounded-bl-full rounded-tl-full -mt-8 ml-28"></div>
     </div>
-
     <div class="xl:px-24 px-4 mt-32 mb-44">
-      <div>
-        <h1>Products</h1>
+      <div class="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10">
+        <div :key="product.id - 1" v-for="product in products" class="bg-dark p-4">
+          <img class="w-full h-56 object-cover object-center"
+               :src="'https://dashboard.makersiq.org/storage/'+ product.image" alt="">
+          <div class="mt-2">
+            <h1 class="text-sm text-orange font-bold">{{ product.name }}</h1>
+            <p class="text-sm text-white">{{ product.description }}</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -17,7 +24,23 @@
 
 <script>
 export default {
-  name: "ProductsView"
+  name: "ProductsView",
+  data() {
+    return {
+      products: []
+    }
+  },
+  methods: {
+    getProducts() {
+      this.axios.get('https://dashboard.makersiq.org/api/products').then(response => {
+        this.products = response.data
+        console.log(this.products)
+      })
+    }
+  },
+  mounted() {
+    this.getProducts()
+  }
 }
 </script>
 
