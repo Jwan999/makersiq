@@ -74,7 +74,7 @@
 <!--/api/numbers-->
 <script>
 export default {
-  name: "LocationComponent",
+  name: "MissionAndVisionComponent",
   data() {
     return {
       numbers: {},

@@ -10,7 +10,7 @@
     <div class="xl:px-24 px-4 mt-32 mb-44">
 
       <MissionAndVisionComponent></MissionAndVisionComponent>
-      <PartnersComponent></PartnersComponent>
+      <TeamComponent></TeamComponent>
       <MakersTeamComponent></MakersTeamComponent>
 
     </div>
@@ -21,11 +21,11 @@
 <script>
 import MakersTeamComponent from "@/components/MakersTeamComponent";
 import MissionAndVisionComponent from "@/components/MissionAndVisionComponent";
-import PartnersComponent from "@/components/PartnersComponent";
+import TeamComponent from "@/components/TeamComponent.vue";
 
 export default {
   components: {
-    MakersTeamComponent, MissionAndVisionComponent, PartnersComponent
+    MakersTeamComponent, MissionAndVisionComponent, TeamComponent
   },
   name: "AboutMakersView",
 }
