@@ -5,11 +5,13 @@
         class="xl:pl-24 pl-0 xl:pr-10 pr-0 xl:absolute xl:top-0 xl:bottom-0 xl:m-auto xl:m-0 flex xl:flex-nowrap flex-wrap justify-between items-center xl:space-x-4 space-x-0 space-y-10">
       <div class="text-start xl:w-3/12 w-full">
         <h1 class="text-3xl font-bold">Projects Accomplished</h1>
-        <p class="text-sm mt-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid aspernatur
-          delectus deleniti
-          doloremque ea est magnam maiores, mollitia nihil nobis nostrum porro possimus </p>
+        <p class="text-sm mt-6">
+          The combination of technical expertise, project management skills, strong communication and
+          interpersonal skills allowed us to manage or co-organize training and manufacturing projects.
+          </p>
       </div>
-      <div class="xl:w-8/12 w-full flex flex-col items-center xl:flex-row xl:space-x-4 space-x-0 xl:space-y-0 space-y-6">
+      <div
+          class="xl:w-8/12 w-full flex flex-col items-center xl:flex-row xl:space-x-4 space-x-0 xl:space-y-0 space-y-6">
         <div :key="project.id - 1" v-for="project in projects" class="xl:w-6/12 w-full flex ">
           <div class="flex space-x-6 items-center bg-white rounded-full py-3 px-10">
             <img class="w-20 grayscale object-cover" :src="'https://dashboard.makersiq.org/storage/'+project.icon"

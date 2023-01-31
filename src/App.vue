@@ -44,6 +44,9 @@ html, body {
   overflow-x: hidden;
 }
 
+.bg-text{
+  background-image:url("/public/images/acomplishmentsText.png")
+}
 
 .bg-pattern {
   background-image: url("/public/images/bg-pattern.svg");
