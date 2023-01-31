@@ -22,9 +22,12 @@
         <div class="flex items-center font-black text-4xl space-x-2 relative">
           <img class="w-2/12 z-10" src="/images/acomplishmentsComa.png" alt="">
           <div class="w-10/12">
-            <div class="w-10/12 bg-text flex items-center px-10 justify-center text-white bg-cover h-full bg-no-repeat absolute top-0 z-0">
-              <span class="text-orange lg:text-4xl text-3xl font-bold">4521 </span>
-              <span class="text-orange lg:text-5xl text-3xl pr-6 font-bold"> +</span>
+            <div
+                class="w-10/12 bg-text flex items-center lg:px-28 px-10 justify-between text-white bg-cover h-full bg-no-repeat absolute top-0 z-0">
+              <div class="flex items-center">
+                <span class="text-orange lg:text-4xl text-3xl font-bold">{{ numbers.students }} </span>
+                <span class="text-orange lg:text-5xl text-3xl pr-6 font-bold"> +</span>
+              </div>
               <span class="text-sm text-white"> Students Trained</span>
             </div>
           </div>
@@ -33,10 +36,13 @@
         <div class="flex items-center font-black text-4xl space-x-2 relative">
           <img class="w-2/12 z-10" src="/images/acomplishmentsComa.png" alt="">
           <div class="w-10/12">
-            <div class="w-10/12 bg-text flex items-center px-10 justify-center text-white bg-cover h-full bg-no-repeat absolute top-0 z-0">
-              <span class="text-orange lg:text-4xl text-3xl font-bold">4521 </span>
-              <span class="text-orange lg:text-5xl text-3xl pr-6 font-bold"> +</span>
-              <span class="text-sm text-white"> Students Trained</span>
+            <div
+                class="w-10/12 bg-text flex items-center lg:px-32 px-10 justify-between text-white bg-cover h-full bg-no-repeat absolute top-0 z-0">
+              <div class="flex items-center">
+                <span class="text-orange lg:text-4xl text-3xl font-bold">{{ numbers.trainings }} </span>
+                <span class="text-orange lg:text-5xl text-3xl pr-6 font-bold"> +</span>
+              </div>
+              <span class="text-sm text-white"> Trainings Held</span>
             </div>
           </div>
 
@@ -44,10 +50,13 @@
         <div class="flex items-center font-black text-4xl space-x-2 relative">
           <img class="w-2/12 z-10" src="/images/acomplishmentsComa.png" alt="">
           <div class="w-10/12">
-            <div class="w-10/12 bg-text flex items-center px-10 justify-center text-white bg-cover h-full bg-no-repeat absolute top-0 z-0">
-              <span class="text-orange lg:text-4xl text-3xl font-bold">4521 </span>
-              <span class="text-orange lg:text-5xl text-3xl pr-6 font-bold"> +</span>
-              <span class="text-sm text-white"> Students Trained</span>
+            <div
+                class="w-10/12 bg-text flex items-center lg:px-32 px-10 justify-between text-white bg-cover h-full bg-no-repeat absolute top-0 z-0">
+              <div class="flex items-center">
+                <span class="text-orange lg:text-4xl text-3xl font-bold">{{ numbers.interns }} </span>
+                <span class="text-orange lg:text-5xl text-3xl pr-6 font-bold"> +</span>
+              </div>
+              <span class="text-sm text-white"> Interns Mentored</span>
             </div>
           </div>
 
@@ -61,9 +70,27 @@
   </div>
 </template>
 
+
+<!--/api/numbers-->
 <script>
 export default {
-  name: "LocationComponent"
+  name: "LocationComponent",
+  data() {
+    return {
+      numbers: {},
+    }
+  },
+  methods: {
+    getNumbers() {
+      this.axios.get('https://dashboard.makersiq.org/api/numbers').then(response => {
+        this.numbers = response.data
+      })
+    },
+  },
+  mounted() {
+    this.getNumbers()
+
+  }
 }
 </script>
 
