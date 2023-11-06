@@ -57,7 +57,7 @@
         <div class="relative lg:w-5/12 w-11/12 lg:mt-0 mt-14">
           <img class="absolute z-10 lg:w-80 w-52 top-0 right-0 lg:-mr-24 -mr-6 lg:-mt-16 -mt-8"
                src="/images/bg-pattern.svg" alt="">
-          <img class="rectangle-shape grayscale object-cover bg-dark w-full object-no-repeat"
+          <img class="rectangle-shape object-cover bg-dark w-full object-no-repeat"
                src="/images/iradaLogos/image_2023-10-19_17-10-41.png" alt="">
         </div>
       </div>
