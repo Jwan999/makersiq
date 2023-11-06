@@ -2,6 +2,7 @@
   <div class="my-44">
 
     <div class="my-44 flex items-center xl:flex-row flex-col justify-between">
+
       <div class="lg:w-6/12 w-11/12">
         <h1 class="text-dark font-bold text-3xl">Mission & Vision</h1>
         <!--<h1 class="text-orange font-semibold">at the open space</h1>-->
@@ -63,9 +64,7 @@
         </div>
       </div>
 
-
     </div>
-
 
   </div>
 </template>

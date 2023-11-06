@@ -27,6 +27,10 @@
                    class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full lg:px-5 px-4 py-2">
         Startups Community
       </router-link>
+      <router-link to="/irada"
+                   class="cursor-pointer text-dark text-sm border border-transparent transition-colors ease-in delay-100 hover:text-orange hover:border-orange rounded-full lg:px-5 px-4 py-2">
+        IRADA Network
+      </router-link>
     </div>
 
     <div class="lg:w-2/12 w-full flex lg:justify-end lg:px-0 px-4">

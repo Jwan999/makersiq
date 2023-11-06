@@ -32,8 +32,6 @@ export default {
 <style>
 #app {
   font-family: 'Montserrat Alternates', sans-serif;
-  /*font-family: 'Raleway', sans-serif;*/
-  /*font-family: Avenir, Helvetica, Arial, sans-serif;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -44,8 +42,8 @@ html, body {
   overflow-x: hidden;
 }
 
-.bg-text{
-  background-image:url("/public/images/acomplishmentsText.png")
+.bg-text {
+  background-image: url("/public/images/acomplishmentsText.png")
 }
 
 .bg-pattern {
