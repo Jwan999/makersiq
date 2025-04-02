@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     getProjects() {
-      this.axios.get('https://dashboard.makersiq.org/api/projects').then(response => {
+      this.axios.get('https://management.makersiq.org/api/projects').then(response => {
         this.projects.push(response.data[2])
         this.projects.push(response.data[0])
       })
