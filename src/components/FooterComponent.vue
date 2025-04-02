@@ -3,7 +3,7 @@
     <h1 class="text-sm text-white">© 2023 Makers.</h1>
   </div>
 </template>
-
+<!--testing this-->
 <script>
 export default {
   name: "FooterComponent"
