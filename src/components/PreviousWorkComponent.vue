@@ -14,7 +14,7 @@
           class="xl:w-8/12 w-full flex flex-col items-center xl:flex-row xl:space-x-4 space-x-0 xl:space-y-0 space-y-6">
         <div :key="project.id - 1" v-for="project in projects" class="xl:w-6/12 w-full flex ">
           <div class="flex space-x-6 items-center bg-white rounded-full py-3 px-10">
-            <img class="w-20 grayscale object-cover" :src="'https://dashboard.makersiq.org/storage/'+project.icon"
+            <img class="w-20 grayscale object-cover" :src="'https://management.makersiq.org/storage/'+project.icon"
                  alt="">
             <p class="text-sm text-dark">{{ project.overview }}</p>
           </div>
@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     getProjects() {
-      this.axios.get('https://dashboard.makersiq.org/api/projects').then(response => {
+      this.axios.get('https://management.makersiq.org/api/projects').then(response => {
         this.projects.push(response.data[2])
         this.projects.push(response.data[0])
       })
