@@ -11,7 +11,7 @@
       <div class="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-20">
         <div v-for="startup in startups" :key="startup.id - 1" class="flex flex-col space-y-6">
           <img class="grayscale h-32 w-full object-contain"
-               :src="'https://dashboard.makersiq.org/storage/'+startup.logo" alt="">
+               :src="'https://management.makersiq.org/storage/'+startup.logo" alt="">
 
           <div class="">
             <p v-if="!readMoreList.includes(startup.name)" class="text-sm text-justify">{{ startup.trimmedIdea }}<span
@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     getStartups() {
-      this.axios.get('https://dashboard.makersiq.org/api/startups').then(response => {
+      this.axios.get('https://management.makersiq.org/api/startups').then(response => {
 
         let startups = response.data
         for (let i = 0; i < startups.length; i++) {

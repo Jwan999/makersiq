@@ -24,7 +24,7 @@
             <div :key="index" v-for="(project ,index) in getProjectsByYear(year)"
                  class="w-8/12 flex xl:flex-row flex-col xl:col-span-2 col-span-1 w-auto xl:rounded-full bg-dark xl:px-10 px-4 xl:py-5 py-6 items-center space-x-2">
               <img class="w-20 grayscale xl:my-0 my-2 xl:mr-4"
-                   :src="'https://dashboard.makersiq.org/storage/'+ project.icon"
+                   :src="'https://management.makersiq.org/storage/'+ project.icon"
                    alt="">
               <p class="text-white text-sm">{{ project.overview }}</p>
             </div>
@@ -50,7 +50,7 @@ export default {
       return this.projects.filter(project => project.starting_date.includes(year) ?? false);
     },
     getProjects() {
-      this.axios.get('https://dashboard.makersiq.org/api/projects').then(response => {
+      this.axios.get('https://management.makersiq.org/api/projects').then(response => {
         this.projects = response.data
         console.log(this.MMXXIIProjects)
         // console.log(this.projects[0])
