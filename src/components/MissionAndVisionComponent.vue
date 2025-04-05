@@ -81,7 +81,7 @@ export default {
   },
   methods: {
     getNumbers() {
-      this.axios.get('https://dashboard.makersiq.org/api/numbers').then(response => {
+      this.axios.get('https://management.makersiq.org/api/numbers').then(response => {
         this.numbers = response.data
       })
     },

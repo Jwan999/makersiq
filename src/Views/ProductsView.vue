@@ -10,7 +10,7 @@
       <div class="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-10">
         <div :key="product.id - 1" v-for="product in products" class="bg-dark p-4">
           <img class="w-full h-56 object-cover object-center"
-               :src="'https://dashboard.makersiq.org/storage/'+ product.image" alt="">
+               :src="'https://management.makersiq.org/storage/'+ product.image" alt="">
           <div class="mt-2">
             <h1 class="text-sm text-orange font-bold">{{ product.name }}</h1>
             <p class="text-sm text-white">{{ product.description }}</p>
@@ -32,7 +32,7 @@ export default {
   },
   methods: {
     getProducts() {
-      this.axios.get('https://dashboard.makersiq.org/api/products').then(response => {
+      this.axios.get('https://management.makersiq.org/api/products').then(response => {
         this.products = response.data
         console.log(this.products)
       })
